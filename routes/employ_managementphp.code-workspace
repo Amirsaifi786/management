@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"name": "amir_it_tutorial",
+			"path": "../../amir_it_tutorial"
+		},
+		{
+			"name": "newlaravel",
+			"path": ".."
+		},
+		{
+			"name": "amir",
+			"path": "../../amir"
+		},
+		{
+			"path": "../../laraveladmin"
+		},
+		{
+			"path": "../../hrmanagement"
+		},
+		{
+			"path": "../../parenchildlaravel"
+		},
+		{
+			"path": "../../countrystatecitydropdown"
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"timkmecl.codegpt3",
+			"blackboxapp.blackbox"
+		]
+	}
+}
