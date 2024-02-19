@@ -66,6 +66,7 @@ Route::get('/wedit', [WhychooseusController::class, 'edit'])->name('wedit');
 Route::post('/wupdate', [WhychooseusController::class, 'update'])->name('wupdate');
 
 
+Route::get('/multistep', function () { return view('blog.multistepform');});
 
 
 

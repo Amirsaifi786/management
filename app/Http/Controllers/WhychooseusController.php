@@ -31,7 +31,7 @@ class WhychooseusController extends Controller
             foreach ($emps as $emp) {
                 $output .= '<tr>
                 <td>' . $emp->id . '</td>
-                <td><img src="storage/images/' . $emp->image . '" width="50" class="img-thumbnail rounded-circle"></td>
+                <td><img src="public/storage/images/' . $emp->image . '" width="50" class="img-thumbnail rounded-circle"></td>
                 <td>' . $emp->title . '</td>
                 <td>' . $emp->description . '</td>
                 <td>

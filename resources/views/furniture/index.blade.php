@@ -39,7 +39,7 @@
         
         <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
             <a class="product-item" href="cart.html">
-                <img src="{{ asset('storage/images/' . $items->image) }}" class="img-fluid product-thumbnail">
+                <img src="{{ asset('public/storage/images/' . $items->image) }}" class="img-fluid product-thumbnail">
                 <h3 class="product-title">{{$items->name}}</h3>
                 <strong class="product-price">{{$items->price}}</strong>
 
@@ -74,7 +74,7 @@
                 <div class="col-6 col-md-6">
                     <div class="feature">
                         <div class="icon">
-                            <img src="{{ asset('storage/images/' . $item->image) }}" alt="Image" class="imf-fluid">
+                            <img src="{{ asset('public/storage/images/' . $item->image) }}" alt="Image" class="imf-fluid">
                         </div>
                         <h3>{{$item->title}}</h3>
                         <p>{{$item->description}}</p>
@@ -134,7 +134,7 @@
         <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="product-item-sm d-flex">
                 <div class="thumbnail">
-                    <img src="{{ asset('storage/images/' . $items->image) }}" alt="Image" class="img-fluid">
+                    <img src="{{ asset('public/storage/images/' . $items->image) }}" alt="Image" class="img-fluid">
                 </div>
                 <div class="pt-3">
                     <h3>{{$items->name}}</h3>
@@ -185,7 +185,7 @@
 
                                     <div class="author-info">
                                         <div class="author-pic">
-                                            <img src="{{ asset('storage/images/' . $item->image) }}" alt="Maria Jones" class="img-fluid">
+                                            <img src="{{ asset('public/storage/images/' . $item->image) }}" alt="Maria Jones" class="img-fluid">
                                         </div>
                                         <h3 class="font-weight-bold">{{$item->name}}</h3>
                                         <span class="position d-block mb-3">{{$item->designation}}</span>

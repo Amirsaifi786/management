@@ -17,12 +17,12 @@
   <meta name="keywords" content="bootstrap, bootstrap4" />
 
 		<!-- Bootstrap CSS -->
-		<link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+		<link href="{{asset('public/css/bootstrap.min.css')}}" rel="stylesheet">
         <script src="https://cdn.ckeditor.com/ckeditor5/43.0.1/classic/ckeditor.js"></script>
 
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-		<link href="{{asset('css/tiny-slider.css')}}" rel="stylesheet">
-		<link href="{{asset('css/style.css')}}" rel="stylesheet">
+		<link href="{{asset('public/css/tiny-slider.css')}}" rel="stylesheet">
+		<link href="{{asset('public/css/style.css')}}" rel="stylesheet">
 		<title>Furniture and Interior Design Websites </title>
 	</head>
 
@@ -54,9 +54,9 @@
 		<!-- End Footer Section -->	
 
 
-		<script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
-		<script src="{{asset('js/tiny-slider.js')}}"></script>
-		<script src="{{asset('js/custom.js')}}"></script>
+		<script src="{{asset('public/js/bootstrap.bundle.min.js')}}"></script>
+		<script src="{{asset('public/js/tiny-slider.js')}}"></script>
+		<script src="{{asset('public/js/custom.js')}}"></script>
 	</body>
 
 </html>

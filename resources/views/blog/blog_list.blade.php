@@ -173,7 +173,7 @@
                 <td>{{ $field->title }}</td>
                 <td>{{ $field->sdescription }}</td>
                 {{-- <td>{{ $field->content }}</td> --}}
-                <td><img src="{{ asset('uploads/' . $field->image) }}" style="border-radius:50%;"  height="40px" width="40px" alt=""
+                <td><img src="{{ asset('public/uploads/' . $field->image) }}" style="border-radius:50%;"  height="40px" width="40px" alt=""
                         class="img">
                 </td >            
                 

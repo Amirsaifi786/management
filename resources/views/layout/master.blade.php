@@ -8,6 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>New laravel project with ajax</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/i18n/datepicker.fi-FI.min.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css' />
     <link rel='stylesheet'
@@ -25,24 +26,24 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{ asset('plugins/fontawesome-free/css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/plugins/fontawesome-free/css/all.min.css') }}">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Tempusdominus Bootstrap 4 -->
     <link rel="stylesheet"
-        href="{{ asset('plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
+        href="{{ asset('public/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
     <!-- iCheck -->
-    <link rel="stylesheet" href="{{ asset('plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
     <!-- JQVMap -->
-    <link rel="stylesheet" href="{{ asset('plugins/jqvmap/jqvmap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/plugins/jqvmap/jqvmap.min.css') }}">
     <!-- Theme style -->
-    <link rel="stylesheet" href="{{ asset('dist/css/adminlte.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/dist/css/adminlte.min.css') }}">
     <!-- overlayScrollbars -->
-    <link rel="stylesheet" href="{{ asset('plugins/overlayScrollbars/css/OverlayScrollbars.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/plugins/overlayScrollbars/css/OverlayScrollbars.min.css') }}">
     <!-- Daterange picker -->
-    <link rel="stylesheet" href="{{ asset('plugins/daterangepicker/daterangepicker.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/plugins/daterangepicker/daterangepicker.css') }}">
     <!-- summernote -->
-    <link rel="stylesheet" href="{{ asset('plugins/summernote/summernote-bs4.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/plugins/summernote/summernote-bs4.min.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -60,7 +61,7 @@
 
         <!-- Preloader -->
         <div class="preloader flex-column justify-content-center align-items-center">
-            <img class="animation__shake" src="{{ asset('dist/img/AdminLTELogo.png') }}" alt="AdminLTELogo"
+            <img class="animation__shake" src="{{ asset('public/dist/img/AdminLTELogo.png') }}" alt="AdminLTELogo"
                 height="60" width="60">
         </div>
 
@@ -103,47 +104,47 @@
 
 
     <!-- jQuery UI 1.11.4 -->
-    <script src="{{ asset('plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+    <script src="{{ asset('public/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
     <script>
         $.widget.bridge('uibutton', $.ui.button)
     </script>
     <!-- Bootstrap 4 -->
-    <script src="{{ asset('plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('public/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <!-- ChartJS -->
     {{-- <script src="plugins/chart.js/Chart.min.js"></script> --}}
     <!-- Sparkline -->
-    <script src="{{ asset('plugins/sparklines/sparkline.js') }}"></script>
+    <script src="{{ asset('public/plugins/sparklines/sparkline.js') }}"></script>
     <!-- JQVMap -->
-    <script src="{{ asset('plugins/jqvmap/jquery.vmap.min.js') }}"></script>
-    <script src="{{ asset('plugins/jqvmap/maps/jquery.vmap.usa.js') }}"></script>
+    <script src="{{ asset('public/plugins/jqvmap/jquery.vmap.min.js') }}"></script>
+    <script src="{{ asset('public/plugins/jqvmap/maps/jquery.vmap.usa.js') }}"></script>
     <!-- jQuery Knob Chart -->
-    <script src="{{ asset('plugins/jquery-knob/jquery.knob.min.js') }}"></script>
+    <script src="{{ asset('public/plugins/jquery-knob/jquery.knob.min.js') }}"></script>
     <!-- daterangepicker -->
-    <script src="{{ asset('plugins/moment/moment.min.js') }}"></script>
-    <script src="{{ asset('plugins/daterangepicker/daterangepicker.js') }}"></script>
+    <script src="{{ asset('public/plugins/moment/moment.min.js') }}"></script>
+    <script src="{{ asset('public/plugins/daterangepicker/daterangepicker.js') }}"></script>
     <!-- Tempusdominus Bootstrap 4 -->
-    <script src="{{ asset('plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
+    <script src="{{ asset('public/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
     <!-- Summernote -->
-    <script src="{{ asset('plugins/summernote/summernote-bs4.min.js') }}"></script>
+    <script src="{{ asset('public/plugins/summernote/summernote-bs4.min.js') }}"></script>
     <!-- overlayScrollbars -->
-    <script src="{{ asset('plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js') }}"></script>
+    <script src="{{ asset('public/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js') }}"></script>
     <!-- AdminLTE App -->
-    <script src="{{ asset('dist/js/adminlte.js') }}"></script>
+    <script src="{{ asset('public/dist/js/adminlte.js') }}"></script>
 
-    <script src="{{ asset('dist/js/adminlte.js') }}"></script>
-    <script src="{{asset('plugins/datatables/jquery.dataTables.min.js') }}"></script>
-    <script src="{{asset('plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
-    <script src="{{asset('plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
-    <script src="{{asset('plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
-    <script src="{{asset('plugins/datatables-buttons/js/dataTables.buttons.min.js') }}"></script>
-    <script src="{{asset('plugins/datatables-buttons/js/buttons.bootstrap4.min.js') }}"></script>
-    <script src="{{asset('plugins/jszip/jszip.min.js') }}"></script>
-    <script src="{{asset('plugins/pdfmake/pdfmake.min.js') }}"></script>
-    <script src="{{asset('plugins/pdfmake/vfs_fonts.js') }}"></script>
-    <script src="{{asset('plugins/datatables-buttons/js/buttons.html5.min.js') }}"></script>
-    <script src="{{asset('plugins/datatables-buttons/js/buttons.print.min.js') }}"></script>
-    <script src="{{asset('plugins/datatables-buttons/js/buttons.colVis.min.js') }}"></script>
+    <script src="{{ asset('public/dist/js/adminlte.js') }}"></script>
+    <script src="{{asset('public/plugins/datatables/jquery.dataTables.min.js') }}"></script>
+    <script src="{{asset('public/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="{{asset('public/plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
+    <script src="{{asset('public/plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
+    <script src="{{asset('public/plugins/datatables-buttons/js/dataTables.buttons.min.js') }}"></script>
+    <script src="{{asset('public/plugins/datatables-buttons/js/buttons.bootstrap4.min.js') }}"></script>
+    <script src="{{asset('public/plugins/jszip/jszip.min.js') }}"></script>
+    <script src="{{asset('public/plugins/pdfmake/pdfmake.min.js') }}"></script>
+    <script src="{{asset('public/plugins/pdfmake/vfs_fonts.js') }}"></script>
+    <script src="{{asset('public/plugins/datatables-buttons/js/buttons.html5.min.js') }}"></script>
+    <script src="{{asset('public/plugins/datatables-buttons/js/buttons.print.min.js') }}"></script>
+    <script src="{{asset('public/plugins/datatables-buttons/js/buttons.colVis.min.js') }}"></script>
     <script>
         $(document).ready(function() {
           $('#content').summernote();
@@ -203,7 +204,7 @@
                $("#phone").val(response.phone);
                $("#post").val(response.post);
                $("#avatar").html(
-                 `<img src="storage/images/${response.avatar}" width="100" class="img-fluid img-thumbnail">`);
+                 `<img src="public/storage/images/${response.avatar}" width="100" class="img-fluid img-thumbnail">`);
                $("#emp_id").val(response.id);
                $("#emp_avatar").val(response.avatar);
              }
@@ -342,7 +343,7 @@
             $("#description").val(response.description);
             $("#shortdescription").val(response.shortdescription);
             $("#image").html(
-              `<img src="storage/images/${response.image}" width="100" class="img-fluid img-thumbnail">`);
+              `<img src="public/storage/images/${response.image}" width="100" class="img-fluid img-thumbnail">`);
             $("#fur_id").val(response.id);
             $("#fur_image").val(response.image);
           }
@@ -478,7 +479,7 @@ $(document).on('click', '.teditIcon', function(e) {
      $("#bio").val(response.bio);
      $("#designation").val(response.designation);
      $("#image").html(
-       `<img src="storage/images/${response.image}" width="100" class="img-fluid img-thumbnail">`);
+       `<img src="public/storage/images/${response.image}" width="100" class="img-fluid img-thumbnail">`);
      $("#fur_id").val(response.id);
      $("#fur_image").val(response.image);
    }
@@ -613,7 +614,7 @@ $(document).on('click', '.weditIcon', function(e) {
      $("#title").val(response.title);
      $("#description").val(response.description);
      $("#image").html(
-       `<img src="storage/images/${response.image}" width="100" class="img-fluid img-thumbnail">`);
+       `<img src="public/storage/images/${response.image}" width="100" class="img-fluid img-thumbnail">`);
      $("#fur_id").val(response.id);
      $("#fur_image").val(response.image);
    }
